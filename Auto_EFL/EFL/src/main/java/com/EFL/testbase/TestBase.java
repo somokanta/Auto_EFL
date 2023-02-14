@@ -64,8 +64,8 @@ public class TestBase {
 		
 	if(browserName.equalsIgnoreCase("chrome_linex")){
 	System.out.println("chrome setProperty for launch.......");
-	WebDriverManager.chromedriver().setup();
-	//System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");//"/usr/local/bin/chromedriver"	
+	//WebDriverManager.chromedriver().setup();
+	System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");//"/usr/local/bin/chromedriver"	
 	ChromeOptions chromeOptions = new ChromeOptions();
 	chromeOptions.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
 	chromeOptions.addArguments("--disable-notifications");
