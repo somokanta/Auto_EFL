@@ -12,15 +12,15 @@
  </classes>
  </test>
  
- <test name="Logged in user Book Service Flow" enabled="false">
+ <test name="Logged in user Book  Service Flow" enabled="false">
  <parameter name="browser" value="Edge"/>
  <classes>
  <class name="EFL_auto_testcase.BookServiceFlow"/>
  </classes>
  </test>
  
- <test name="Logged in user Buy AMC Flow" enabled="true">
- <parameter name="browser" value="Chrome_Headless"/>
+ <test name=" Logged in user Buy AMC Flow" enabled="true">
+ <parameter name="browser" value="chrome_linex"/>
  <classes>
  <class name="EFL_auto_testcase.BuyAMCFlow"/>
  </classes>
