@@ -22,7 +22,7 @@ import com.EFL.testbase.ExtentTestManager;
 import com.EFL.testbase.TestBase;
 import com.aventstack.extentreports.Status;
 
-public class BuyAMCFlow extends TestBase{
+public class BuyAMCFlow_Home extends TestBase{
 	loginPage login;
 	PDP P;
 	Cart c;
@@ -90,8 +90,8 @@ public class BuyAMCFlow extends TestBase{
 		
 	}*/
 	@Test(priority=0,dataProvider = "BuyAmc",enabled=true)
-	 public void BuyAMC(String ChoosePlan,String ChoosePlanHome,String ChoosePlanProfile) throws InterruptedException {
-	 AM.ByAMCflow(ChoosePlan);
+	 public void BuyAMCHome(String ChoosePlan,String ChoosePlanHome,String ChoosePlanProfile) throws InterruptedException {
+	 AM.Home_ByAMCflow(ChoosePlanHome);
 	 try {
 		Assert.assertEquals(driver.getTitle(),"AMC Payment");
 		Reporter.log(">>>>>>>>>verify successfully");

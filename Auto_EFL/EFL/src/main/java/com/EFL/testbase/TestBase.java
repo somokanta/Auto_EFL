@@ -66,15 +66,11 @@ public class TestBase {
 	System.out.println("chrome setProperty for launch.......");
 	WebDriverManager.chromedriver().setup();
 	//System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");//"/usr/local/bin/chromedriver"	
-	/*
-	 * ChromeOptions chromeOptions = new ChromeOptions();
-	 * chromeOptions.addArguments("--headless", "window-size=1024,768",
-	 * "--no-sandbox"); chromeOptions.addArguments("--disable-notifications");
-	 * chromeOptions.addArguments("--disable-dev-shm-usage");
-	 * chromeOptions.addArguments("--lang=en_US");
-	 */
-	 ChromeOptions chromeOptions = new ChromeOptions();
-	 chromeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");
+	ChromeOptions chromeOptions = new ChromeOptions();
+	chromeOptions.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
+	chromeOptions.addArguments("--disable-notifications");
+	chromeOptions.addArguments("--disable-dev-shm-usage");
+	chromeOptions.addArguments("--lang=en_US");
 	driver = new ChromeDriver(chromeOptions);
 	//driver = new ChromeDriver(); 
 	log.debug("chrome launch..............");
@@ -200,7 +196,7 @@ public class TestBase {
 	}
 	@AfterClass 
 	public void close() {
-	//driver.quit(); 
+	driver.quit(); 
 	
 	}
 }
