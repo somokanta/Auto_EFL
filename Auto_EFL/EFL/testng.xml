@@ -24,45 +24,4 @@
  <class name="EFL_auto_testcase.BuyAMCFlow_Profile"/>
  </classes>
  </test>	
-	
-	
-	
-	
-
- <test name="Guest user Product PurchaseFlow" enabled="false">
- <parameter name="browser" value="Chrome_Headless"/>
- <classes>
- <class name="EFL_auto_testcase.GuestuserProductPurchaseFlow"/>
- </classes>
- </test>
- 
- <test name="Logged in user Book  Service Flow" enabled="false">
- <parameter name="browser" value="Edge"/>
- <classes>
- <class name="EFL_auto_testcase.BookServiceFlow"/>
- </classes>
- </test>
- 
- <test name=" Logged in user Buy AMC Flow" enabled="false">
- <parameter name="browser" value="chrome_linex"/>
- <classes>
- <class name="EFL_auto_testcase.BuyAMCFlow"/>
- </classes>
- </test>
- 
-<test name="Logged in user Product Purchase Flow" enabled="false">
- <parameter name="browser" value="
-"/>
- <classes>
- <class name="EFL_auto_testcase.LoginUserFlow"/>
- </classes>
- </test>
- 
- <test name="Guest user Book Demo Flow" enabled="false">
- <parameter name="browser" value="chrome"/>
- <classes>
- <class name="EFL_auto_testcase.BookDemoFlow"/>
- </classes>
- </test>
- 
  </suite>
