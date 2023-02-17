@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>TestNG:  Token_Jeneration</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Token_Jeneration</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 17 12:57:09 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8386 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.rest.tests.NewToken.GetCustomerComponent()'><b>GetCustomerComponent</b><br>Test class: com.qa.rest.tests.NewToken<br/>
+<a href="#Output-895259838" onClick='toggleBox("Output-895259838", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-895259838" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-895259838">
+GetCustomerComponent Response {"@odata.context":"https://eurekaforbes-posibol365.crm8.dynamics.com/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.efl_GetCustomerComponentDetailsResponse","Response":"{\"E_FLAG\":true,\"ET_CUST_DET\":{\"CUSTOMER\":\"1014067245\",\"FIRSTNAME\":\"SUMIT PAWAR\",\"LASTNAME\":\"\",\"LANDLINE\":\"\",\"EMAIL\":\"SHIRKANDE.SWAPNALI@GMAIL.COM\",\"MOBILE\":\"9773430762\",\"HOUSENO\":\"\",\"STREET1\":\"MIDC INDL Area\",\"STREET2\":\"MIDC\",\"STREET3\":\"Airoli\",\"STREET4\":\"\",\"CITY\":\"615\",\"PINCODE\":\"394210\",\"COUNTRY\":\"IN\",\"REGION\":\"\",\"SEARCHTERM1\":\"\",\"SEARCHTERM2\":\"\",\"FLAG\":\"\",\"LANG\":\"\",\"GSTNO\":\"18AABCU9603R1ZM\",\"PAN\":\"AABCU9603R\"},\"E_COMP\":{\"item\":[{\"CUSTID\":\"1014067245\",\"COMPONENT_ID\":\"34657053\",\"IBASE\":null,\"PRODUCT_ID\":\"GWPDCTLPL00000\",\"PRODUCT_DESCRIPT\":\"AQUAGUARD CRYSTAL PLUS UV\",\"CONTRACT_NUMBER\":\"0300420665\",\"CONTRACT_STATUS\":\"IC\",\"VALID_FROM\":\"20210621\",\"VALID_TO\":\"20230620\",\"FLAG\":\"\",\"LOCATED_AT\":\"Functional Location\",\"SERIAL_NUMBER\":\"2240104184001854\",\"SERVICEBP\":\"14195\",\"SERVICEBP_EMAIL\":\"14195@genuineservice.eurekaforbes.com\",\"PRODUCT_CATEGORY\":\"Water Purifiers\"}]}}"}<br/>
+statusCode is : 200<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.qa.rest.tests.NewToken@2abf4075</td></tr>
+<tr>
+<td title='com.qa.rest.tests.NewToken.GetToken_Generation()'><b>GetToken_Generation</b><br>Test class: com.qa.rest.tests.NewToken<br/>
+<a href="#Output-1518868172" onClick='toggleBox("Output-1518868172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1518868172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1518868172">
+Token_Generation Response {"token_type":"Bearer","expires_in":"3599","ext_expires_in":"3599","expires_on":"1676622431","not_before":"1676618531","resource":"https://eurekaforbes-posibol365.crm8.dynamics.com","access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL2V1cmVrYWZvcmJlcy1wb3NpYm9sMzY1LmNybTguZHluYW1pY3MuY29tIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvMDVhOTVlNWQtMDEyNS00M2QxLTk2MzUtYWYyMDNjMGZlOGM0LyIsImlhdCI6MTY3NjYxODUzMSwibmJmIjoxNjc2NjE4NTMxLCJleHAiOjE2NzY2MjI0MzEsImFpbyI6IkUyWmdZTmpOODlYb0xzTnZiNGI1VCtibmRGMDVBQUE9IiwiYXBwaWQiOiI3MWJkYmZjNy01YWY0LTRkM2QtYTVmNC05MjBlNmZkNDkxYWIiLCJhcHBpZGFjciI6IjEiLCJpZHAiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8wNWE5NWU1ZC0wMTI1LTQzZDEtOTYzNS1hZjIwM2MwZmU4YzQvIiwib2lkIjoiNDJkZDc2ODctMjhhOC00NDA5LWJhNWItOWRjYjYyYWU5NGI5IiwicmgiOiIwLkFYSUFYVjZwQlNVQjBVT1dOYThnUEFfb3hBY0FBQUFBQUFBQXdBQUFBQUFBQUFCeUFBQS4iLCJzdWIiOiI0MmRkNzY4Ny0yOGE4LTQ0MDktYmE1Yi05ZGNiNjJhZTk0YjkiLCJ0aWQiOiIwNWE5NWU1ZC0wMTI1LTQzZDEtOTYzNS1hZjIwM2MwZmU4YzQiLCJ1dGkiOiJicTZYVllwenNFT2VOY2g2eVlrMUFBIiwidmVyIjoiMS4wIn0.k1ympdhb_Q32TDBdf2X43RCQBPSCr8zKbpErslqjv6x9EGquA1xhPRjXlHHd_tw3e_nIAlZuhjNPIaMl6n1QSrzXZcm1nfEh3Q8b93rpqb7x_oKNJ_P_6IXhjpDm-8didjRhxQlVQZ_ies_fTLhW-Ks1L881CjXNnO3d_FF0PWUMZXsVJi5qsas9aw6YsmtcHs6w1mXfA-viZqDci5rFs_Mgm2FTFkl7Z9j6ymURcTcb3Ohdt-2XLZqLFAnu14YwnYmme-tZ6tmzgxzilBzCeytZcOHA8yD2di-FJlrk8qVHz8_NpwjNbWjZAWDKBYBCrugC3dW2XTLehAUp-yEmRg"}<br/>
+statusCode is : 200<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.qa.rest.tests.NewToken@2abf4075</td></tr>
+<tr>
+<td title='com.qa.rest.tests.NewToken.GetCustomerDetails()'><b>GetCustomerDetails</b><br>Test class: com.qa.rest.tests.NewToken<br/>
+<a href="#Output-674667952" onClick='toggleBox("Output-674667952", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-674667952" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-674667952">
+GetCustomerDetails Response:{"@odata.context":"https://eurekaforbes-posibol365.crm8.dynamics.com/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.efl_contactDetailsResponse","Response":"{\"Success\":true,\"Message\":\"Customer found.\",\"Value\":[{\"FirstName\":\"SUMIT PAWAR\",\"MiddleName\":null,\"LastName\":null,\"Email\":\"SHIRKANDE.SWAPNALI@GMAIL.COM\",\"Mobile\":\"9773430762\",\"DoorNo\":\"B/203\",\"Street1\":\"MIDC INDL Area\",\"Street2\":\"MIDC\",\"Street3\":\"Airoli\",\"Street4\":null,\"City\":\"SURAT\",\"State\":\"GUJARAT\",\"District\":null,\"Pincode\":\"394210\",\"SAPCustomerCode\":\"1014067245\",\"ServiceAccount_CustomerAsset\":[{\"Name\":\"34657053\",\"AssetSerialNumber\":\"2240104184001854\",\"ProductName\":\"AQUAGUARD CRYSTAL PLUS UV\",\"ProductCode\":\"GWPDCTLPL00000\"}]}]}"}<br/>
+statusCode is : 200<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.rest.tests.NewToken@2abf4075</td></tr>
+<tr>
+<td title='com.qa.rest.tests.NewToken.GetProductOptionAMC()'><b>GetProductOptionAMC</b><br>Test class: com.qa.rest.tests.NewToken<br/>
+<a href="#Output-1102135101" onClick='toggleBox("Output-1102135101", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1102135101" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1102135101">
+GetProductOptionAMC Response {"@odata.context":"https://eurekaforbes-posibol365.crm8.dynamics.com/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.efl_GetAMCProductPriceResponse","Response":"{\"E_FLAG\":true,\"Message\":\"AMC_Product_Price retrieved successfully.\",\"T_AMCPROD_PRICE\":[{\"MPRODUCT\":\"GWPDCTLPL00000\",\"AMC_PROD\":\"SCTLPL000C12\",\"PROD_DESC\":\"AS CD CRYSTAL PLUS UV -12 MTH COMP AMC\",\"PRICE\":2150.00,\"CURRENCY\":\"INR\",\"DISCOUNT\":0.0,\"SPL_DISCOUNT\":0.0,\"TOTAL\":2150.00,\"DEFAULT_IND\":null,\"CONT_DURATN\":12,\"CATEGORY\":null},{\"MPRODUCT\":\"GWPDCTLPL00000\",\"AMC_PROD\":\"SCTLPL000C24\",\"PROD_DESC\":\"AS CD CRYSTAL PLUS UV -24 MTH COMP AMC\",\"PRICE\":3900.00,\"CURRENCY\":\"INR\",\"DISCOUNT\":0.0,\"SPL_DISCOUNT\":0.0,\"TOTAL\":3900.00,\"DEFAULT_IND\":null,\"CONT_DURATN\":24,\"CATEGORY\":null},{\"MPRODUCT\":\"GWPDCTLPL00000\",\"AMC_PROD\":\"SCTLPL000C36\",\"PROD_DESC\":\"AS CD CRYSTAL PLUS UV -36 MTH COMP AMC\",\"PRICE\":5650.00,\"CURRENCY\":\"INR\",\"DISCOUNT\":0.0,\"SPL_DISCOUNT\":0.0,\"TOTAL\":5650.00,\"DEFAULT_IND\":null,\"CONT_DURATN\":36,\"CATEGORY\":null}]}"}<br/>
+statusCode is : 200<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qa.rest.tests.NewToken@2abf4075</td></tr>
+</table><p>
+</body>
+</html>

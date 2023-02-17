@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>TestNG:  Stager_Token</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Stager_Token</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 17 12:57:17 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2337 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.rest.tests.StagerToken.GetCustomerType()'><b>GetCustomerType</b><br>Test class: com.qa.rest.tests.StagerToken<br/>
+<a href="#Output-18233895" onClick='toggleBox("Output-18233895", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18233895" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18233895">
+GetCustomerType Response: {"Success":true,"Message":" BP is live ","StaggeredSystem":"D365","Customer":[{"FirstName":"SUMIT PAWAR","MiddleName":null,"LastName":null,"SAPCustomerCode":"1014067245","Email":null,"MobileNumber":null,"Street1":"MIDC INDL Area","Street2":"MIDC","Street3":"Airoli","City":"SURAT","State":"GUJARAT","District":null,"Pincode":"394210"}]}<br/>
+statusCode is : 200<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qa.rest.tests.StagerToken@6d4e5011</td></tr>
+<tr>
+<td title='com.qa.rest.tests.StagerToken.GetStagerToken()'><b>GetStagerToken</b><br>Test class: com.qa.rest.tests.StagerToken<br/>
+<a href="#Output-815590838" onClick='toggleBox("Output-815590838", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-815590838" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-815590838">
+GetStagerToken Response is: {"token_type":"Bearer","expires_in":"3599","ext_expires_in":"3599","expires_on":"1676622438","not_before":"1676618538","resource":"71bdbfc7-5af4-4d3d-a5f4-920e6fd491ab","access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiI3MWJkYmZjNy01YWY0LTRkM2QtYTVmNC05MjBlNmZkNDkxYWIiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8wNWE5NWU1ZC0wMTI1LTQzZDEtOTYzNS1hZjIwM2MwZmU4YzQvIiwiaWF0IjoxNjc2NjE4NTM4LCJuYmYiOjE2NzY2MTg1MzgsImV4cCI6MTY3NjYyMjQzOCwiYWlvIjoiRTJaZ1lOQk40SlZmbGU5MlRzbDFiOG04cGM5akFBPT0iLCJhcHBpZCI6IjcxYmRiZmM3LTVhZjQtNGQzZC1hNWY0LTkyMGU2ZmQ0OTFhYiIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzA1YTk1ZTVkLTAxMjUtNDNkMS05NjM1LWFmMjAzYzBmZThjNC8iLCJvaWQiOiI0MmRkNzY4Ny0yOGE4LTQ0MDktYmE1Yi05ZGNiNjJhZTk0YjkiLCJyaCI6IjAuQVhJQVhWNnBCU1VCMFVPV05hOGdQQV9veE1lX3ZYSDBXajFOcGZTU0RtX1VrYXR5QUFBLiIsInN1YiI6IjQyZGQ3Njg3LTI4YTgtNDQwOS1iYTViLTlkY2I2MmFlOTRiOSIsInRpZCI6IjA1YTk1ZTVkLTAxMjUtNDNkMS05NjM1LWFmMjAzYzBmZThjNCIsInV0aSI6Ind3dnR1b0hGV2tHZUdJcEJBOEJTQUEiLCJ2ZXIiOiIxLjAifQ.LIURzTOBwhViN-tVIk43zJ_M2E5a50Ms6pJ1v2rZpu_5I9uVDRFmts8DRHnWxylbHs9EgqslB7One5N6UCdPYMNINRBTnXwlkdUeMI7VKrpYw1cngTMnpafb4auFrMnvqU6ZQpcKoZzZ9qkU6Pg4K7BoHZW6Jc63gdB9emYRRCK7knBdKvYlb3tUO2aA2Lsr2h5JFYOYukw3Tch-GdlQSz77jAFsQthhTp3mu2iZiOBr5M-LpVcG4c9ZeTLIi5noo2EpNF5r0WX5QafaGWT2FWvXuiLK6Fl2uQMXBdNosHZ-cUBers-vc0QEgO5jxBN_2ml9WIGZydrLD38deOzMLQ"}<br/>
+statusCode is : 200<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qa.rest.tests.StagerToken@6d4e5011</td></tr>
+</table><p>
+</body>
+</html>

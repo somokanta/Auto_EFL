@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Suite"> -->
+<suite name="APISuite">
+<test name="Token_Jeneration" enabled="true">
+ <classes>
+ <class name="com.qa.rest.tests.NewToken"/>
+ </classes>
+ </test>
+<test name="Stager_Token" enabled="true">
+ <classes>
+ <class name="com.qa.rest.tests.StagerToken"/>
+ </classes>
+ </test>
+ </suite>
