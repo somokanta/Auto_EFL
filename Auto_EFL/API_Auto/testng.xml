@@ -2,12 +2,14 @@
 <!-- <suite name="Suite"> -->
 <suite name="APISuite">
 <test name="Token_Jeneration" enabled="true">
+<parameter name="" value=""/>
  <classes>
  <class name="com.qa.rest.tests.NewToken"/>
  </classes>
  </test>
  
 <test name="Stager_Token" enabled="true">
+<parameter name="" value=""/>
  <classes>
  <class name="com.qa.rest.tests.StagerToken"/>
  </classes>
