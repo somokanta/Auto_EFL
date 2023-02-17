@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-APISuite" class="navigator-link ">
-                    <span>C:\Users\User\git\Auto_EFL\API_Auto\testing XML</span>
+                    <span>C:\Users\User\git\Auto_EFL\API_Auto\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -205,7 +205,7 @@
         </div> <!-- panel APISuite -->
         <div panel-name="test-xml-APISuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\User\git\Auto_EFL\API_Auto\testing XML</span>
+            <span class="header-content">C:\Users\User\git\Auto_EFL\API_Auto\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -296,34 +296,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'GetCustomerComponent')
+data.setCell(0, 1, 'GetToken_Generation')
 data.setCell(0, 2, 'com.qa.rest.tests.NewToken')
-data.setCell(0, 3, 3070);
+data.setCell(0, 3, 2656);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'GetToken_Generation')
+data.setCell(1, 1, 'GetCustomerComponent')
 data.setCell(1, 2, 'com.qa.rest.tests.NewToken')
-data.setCell(1, 3, 2925);
+data.setCell(1, 3, 1445);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'GetCustomerType')
-data.setCell(2, 2, 'com.qa.rest.tests.StagerToken')
-data.setCell(2, 3, 1505);
+data.setCell(2, 1, 'GetProductOptionAMC')
+data.setCell(2, 2, 'com.qa.rest.tests.NewToken')
+data.setCell(2, 3, 1359);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'GetProductOptionAMC')
-data.setCell(3, 2, 'com.qa.rest.tests.NewToken')
-data.setCell(3, 3, 1401);
+data.setCell(3, 1, 'GetCustomerType')
+data.setCell(3, 2, 'com.qa.rest.tests.StagerToken')
+data.setCell(3, 3, 1321);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'GetCustomerDetails')
-data.setCell(4, 2, 'com.qa.rest.tests.NewToken')
-data.setCell(4, 3, 932);
+data.setCell(4, 1, 'GetStagerToken')
+data.setCell(4, 2, 'com.qa.rest.tests.StagerToken')
+data.setCell(4, 3, 1059);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'GetStagerToken')
-data.setCell(5, 2, 'com.qa.rest.tests.StagerToken')
-data.setCell(5, 3, 827);
+data.setCell(5, 1, 'GetCustomerDetails')
+data.setCell(5, 2, 'com.qa.rest.tests.NewToken')
+data.setCell(5, 3, 980);
 window.suiteTableData['APISuite']= { tableData: data, tableDiv: 'times-div-APISuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-APISuite">
               </div> <!-- times-div-APISuite -->
             </div> <!-- times-div -->
@@ -335,16 +335,16 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">GetCustomerComponent</span>
+              <span class="reporter-method-name">GetToken_Generation</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">GetCustomerComponent Response {"@odata.context":"https://eurekaforbes-posibol365.crm8.dynamics.com/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.efl_GetCustomerComponentDetailsResponse","Response":"{\"E_FLAG\":true,\"ET_CUST_DET\":{\"CUSTOMER\":\"1014067245\",\"FIRSTNAME\":\"SUMIT PAWAR\",\"LASTNAME\":\"\",\"LANDLINE\":\"\",\"EMAIL\":\"SHIRKANDE.SWAPNALI@GMAIL.COM\",\"MOBILE\":\"9773430762\",\"HOUSENO\":\"\",\"STREET1\":\"MIDC INDL Area\",\"STREET2\":\"MIDC\",\"STREET3\":\"Airoli\",\"STREET4\":\"\",\"CITY\":\"615\",\"PINCODE\":\"394210\",\"COUNTRY\":\"IN\",\"REGION\":\"\",\"SEARCHTERM1\":\"\",\"SEARCHTERM2\":\"\",\"FLAG\":\"\",\"LANG\":\"\",\"GSTNO\":\"18AABCU9603R1ZM\",\"PAN\":\"AABCU9603R\"},\"E_COMP\":{\"item\":[{\"CUSTID\":\"1014067245\",\"COMPONENT_ID\":\"34657053\",\"IBASE\":null,\"PRODUCT_ID\":\"GWPDCTLPL00000\",\"PRODUCT_DESCRIPT\":\"AQUAGUARD CRYSTAL PLUS UV\",\"CONTRACT_NUMBER\":\"0300420665\",\"CONTRACT_STATUS\":\"IC\",\"VALID_FROM\":\"20210621\",\"VALID_TO\":\"20230620\",\"FLAG\":\"\",\"LOCATED_AT\":\"Functional Location\",\"SERIAL_NUMBER\":\"2240104184001854\",\"SERVICEBP\":\"14195\",\"SERVICEBP_EMAIL\":\"14195@genuineservice.eurekaforbes.com\",\"PRODUCT_CATEGORY\":\"Water Purifiers\"}]}}"}</span>
+                <span class="reporter-method-output">Token_Generation Response {"token_type":"Bearer","expires_in":"3599","ext_expires_in":"3599","expires_on":"1676631023","not_before":"1676627123","resource":"https://eurekaforbes-posibol365.crm8.dynamics.com","access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL2V1cmVrYWZvcmJlcy1wb3NpYm9sMzY1LmNybTguZHluYW1pY3MuY29tIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvMDVhOTVlNWQtMDEyNS00M2QxLTk2MzUtYWYyMDNjMGZlOGM0LyIsImlhdCI6MTY3NjYyNzEyMywibmJmIjoxNjc2NjI3MTIzLCJleHAiOjE2NzY2MzEwMjMsImFpbyI6IkUyWmdZR2dPOGc4Uk1ESTU5dkp3dGtIOGN2ZXRBQT09IiwiYXBwaWQiOiI3MWJkYmZjNy01YWY0LTRkM2QtYTVmNC05MjBlNmZkNDkxYWIiLCJhcHBpZGFjciI6IjEiLCJpZHAiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8wNWE5NWU1ZC0wMTI1LTQzZDEtOTYzNS1hZjIwM2MwZmU4YzQvIiwib2lkIjoiNDJkZDc2ODctMjhhOC00NDA5LWJhNWItOWRjYjYyYWU5NGI5IiwicmgiOiIwLkFYSUFYVjZwQlNVQjBVT1dOYThnUEFfb3hBY0FBQUFBQUFBQXdBQUFBQUFBQUFCeUFBQS4iLCJzdWIiOiI0MmRkNzY4Ny0yOGE4LTQ0MDktYmE1Yi05ZGNiNjJhZTk0YjkiLCJ0aWQiOiIwNWE5NWU1ZC0wMTI1LTQzZDEtOTYzNS1hZjIwM2MwZmU4YzQiLCJ1dGkiOiJRanczaHdrSUhFNkNwclZfNmNFN0FBIiwidmVyIjoiMS4wIn0.HWQpuDKOQ8B_Le437MeJ2iu2jKiHGSVQpGr3sHK-nbNu1kFUwRV3SVG35hR3IFxZAgaSeYExZaQng6KQuLgIeJJGGvau0axum663AUevUi0DnWgucVU_dR6l_TEq5CfRpRVwUoziMvgVRphb2hgyPVSVUYAZMMFgLBPre1uYxVA6XtiT_tF1FCd-KK3EJOJ_0oad04chlwdPtV33LpBUTivKPe_aWTHGIb4_jFH5w0JLZSQLPphvkTVwSmfPleQJyefRh0eV6_R3ZVCihjA5FJa4wstBEC7_tEQYliv7aN5kzaIA8HYKQIjEeZ0yqY4XcIesa6h32E0vLBQyNJOCXw"}</span>
                 <span class="reporter-method-output">statusCode is : 200</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">GetToken_Generation</span>
+              <span class="reporter-method-name">GetCustomerComponent</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Token_Generation Response {"token_type":"Bearer","expires_in":"3599","ext_expires_in":"3599","expires_on":"1676622431","not_before":"1676618531","resource":"https://eurekaforbes-posibol365.crm8.dynamics.com","access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiJodHRwczovL2V1cmVrYWZvcmJlcy1wb3NpYm9sMzY1LmNybTguZHluYW1pY3MuY29tIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvMDVhOTVlNWQtMDEyNS00M2QxLTk2MzUtYWYyMDNjMGZlOGM0LyIsImlhdCI6MTY3NjYxODUzMSwibmJmIjoxNjc2NjE4NTMxLCJleHAiOjE2NzY2MjI0MzEsImFpbyI6IkUyWmdZTmpOODlYb0xzTnZiNGI1VCtibmRGMDVBQUE9IiwiYXBwaWQiOiI3MWJkYmZjNy01YWY0LTRkM2QtYTVmNC05MjBlNmZkNDkxYWIiLCJhcHBpZGFjciI6IjEiLCJpZHAiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8wNWE5NWU1ZC0wMTI1LTQzZDEtOTYzNS1hZjIwM2MwZmU4YzQvIiwib2lkIjoiNDJkZDc2ODctMjhhOC00NDA5LWJhNWItOWRjYjYyYWU5NGI5IiwicmgiOiIwLkFYSUFYVjZwQlNVQjBVT1dOYThnUEFfb3hBY0FBQUFBQUFBQXdBQUFBQUFBQUFCeUFBQS4iLCJzdWIiOiI0MmRkNzY4Ny0yOGE4LTQ0MDktYmE1Yi05ZGNiNjJhZTk0YjkiLCJ0aWQiOiIwNWE5NWU1ZC0wMTI1LTQzZDEtOTYzNS1hZjIwM2MwZmU4YzQiLCJ1dGkiOiJicTZYVllwenNFT2VOY2g2eVlrMUFBIiwidmVyIjoiMS4wIn0.k1ympdhb_Q32TDBdf2X43RCQBPSCr8zKbpErslqjv6x9EGquA1xhPRjXlHHd_tw3e_nIAlZuhjNPIaMl6n1QSrzXZcm1nfEh3Q8b93rpqb7x_oKNJ_P_6IXhjpDm-8didjRhxQlVQZ_ies_fTLhW-Ks1L881CjXNnO3d_FF0PWUMZXsVJi5qsas9aw6YsmtcHs6w1mXfA-viZqDci5rFs_Mgm2FTFkl7Z9j6ymURcTcb3Ohdt-2XLZqLFAnu14YwnYmme-tZ6tmzgxzilBzCeytZcOHA8yD2di-FJlrk8qVHz8_NpwjNbWjZAWDKBYBCrugC3dW2XTLehAUp-yEmRg"}</span>
+                <span class="reporter-method-output">GetCustomerComponent Response {"@odata.context":"https://eurekaforbes-posibol365.crm8.dynamics.com/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.efl_GetCustomerComponentDetailsResponse","Response":"{\"E_FLAG\":true,\"ET_CUST_DET\":{\"CUSTOMER\":\"1014067245\",\"FIRSTNAME\":\"SUMIT PAWAR\",\"LASTNAME\":\"\",\"LANDLINE\":\"\",\"EMAIL\":\"SHIRKANDE.SWAPNALI@GMAIL.COM\",\"MOBILE\":\"9773430762\",\"HOUSENO\":\"\",\"STREET1\":\"MIDC INDL Area\",\"STREET2\":\"MIDC\",\"STREET3\":\"Airoli\",\"STREET4\":\"\",\"CITY\":\"615\",\"PINCODE\":\"394210\",\"COUNTRY\":\"IN\",\"REGION\":\"\",\"SEARCHTERM1\":\"\",\"SEARCHTERM2\":\"\",\"FLAG\":\"\",\"LANG\":\"\",\"GSTNO\":\"18AABCU9603R1ZM\",\"PAN\":\"AABCU9603R\"},\"E_COMP\":{\"item\":[{\"CUSTID\":\"1014067245\",\"COMPONENT_ID\":\"34657053\",\"IBASE\":null,\"PRODUCT_ID\":\"GWPDCTLPL00000\",\"PRODUCT_DESCRIPT\":\"AQUAGUARD CRYSTAL PLUS UV\",\"CONTRACT_NUMBER\":\"0300420665\",\"CONTRACT_STATUS\":\"IC\",\"VALID_FROM\":\"20210621\",\"VALID_TO\":\"20230620\",\"FLAG\":\"\",\"LOCATED_AT\":\"Functional Location\",\"SERIAL_NUMBER\":\"2240104184001854\",\"SERVICEBP\":\"14195\",\"SERVICEBP_EMAIL\":\"14195@genuineservice.eurekaforbes.com\",\"PRODUCT_CATEGORY\":\"Water Purifiers\"}]}}"}</span>
                 <span class="reporter-method-output">statusCode is : 200</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -372,7 +372,7 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">GetStagerToken</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">GetStagerToken Response is: {"token_type":"Bearer","expires_in":"3599","ext_expires_in":"3599","expires_on":"1676622438","not_before":"1676618538","resource":"71bdbfc7-5af4-4d3d-a5f4-920e6fd491ab","access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiI3MWJkYmZjNy01YWY0LTRkM2QtYTVmNC05MjBlNmZkNDkxYWIiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8wNWE5NWU1ZC0wMTI1LTQzZDEtOTYzNS1hZjIwM2MwZmU4YzQvIiwiaWF0IjoxNjc2NjE4NTM4LCJuYmYiOjE2NzY2MTg1MzgsImV4cCI6MTY3NjYyMjQzOCwiYWlvIjoiRTJaZ1lOQk40SlZmbGU5MlRzbDFiOG04cGM5akFBPT0iLCJhcHBpZCI6IjcxYmRiZmM3LTVhZjQtNGQzZC1hNWY0LTkyMGU2ZmQ0OTFhYiIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzA1YTk1ZTVkLTAxMjUtNDNkMS05NjM1LWFmMjAzYzBmZThjNC8iLCJvaWQiOiI0MmRkNzY4Ny0yOGE4LTQ0MDktYmE1Yi05ZGNiNjJhZTk0YjkiLCJyaCI6IjAuQVhJQVhWNnBCU1VCMFVPV05hOGdQQV9veE1lX3ZYSDBXajFOcGZTU0RtX1VrYXR5QUFBLiIsInN1YiI6IjQyZGQ3Njg3LTI4YTgtNDQwOS1iYTViLTlkY2I2MmFlOTRiOSIsInRpZCI6IjA1YTk1ZTVkLTAxMjUtNDNkMS05NjM1LWFmMjAzYzBmZThjNCIsInV0aSI6Ind3dnR1b0hGV2tHZUdJcEJBOEJTQUEiLCJ2ZXIiOiIxLjAifQ.LIURzTOBwhViN-tVIk43zJ_M2E5a50Ms6pJ1v2rZpu_5I9uVDRFmts8DRHnWxylbHs9EgqslB7One5N6UCdPYMNINRBTnXwlkdUeMI7VKrpYw1cngTMnpafb4auFrMnvqU6ZQpcKoZzZ9qkU6Pg4K7BoHZW6Jc63gdB9emYRRCK7knBdKvYlb3tUO2aA2Lsr2h5JFYOYukw3Tch-GdlQSz77jAFsQthhTp3mu2iZiOBr5M-LpVcG4c9ZeTLIi5noo2EpNF5r0WX5QafaGWT2FWvXuiLK6Fl2uQMXBdNosHZ-cUBers-vc0QEgO5jxBN_2ml9WIGZydrLD38deOzMLQ"}</span>
+                <span class="reporter-method-output">GetStagerToken Response is: {"token_type":"Bearer","expires_in":"3599","ext_expires_in":"3599","expires_on":"1676631028","not_before":"1676627128","resource":"71bdbfc7-5af4-4d3d-a5f4-920e6fd491ab","access_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiI3MWJkYmZjNy01YWY0LTRkM2QtYTVmNC05MjBlNmZkNDkxYWIiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8wNWE5NWU1ZC0wMTI1LTQzZDEtOTYzNS1hZjIwM2MwZmU4YzQvIiwiaWF0IjoxNjc2NjI3MTI4LCJuYmYiOjE2NzY2MjcxMjgsImV4cCI6MTY3NjYzMTAyOCwiYWlvIjoiRTJaZ1lMaFI2dmE3OWZ4RHZ1blRaN0Y5YnY1VENRQT0iLCJhcHBpZCI6IjcxYmRiZmM3LTVhZjQtNGQzZC1hNWY0LTkyMGU2ZmQ0OTFhYiIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzA1YTk1ZTVkLTAxMjUtNDNkMS05NjM1LWFmMjAzYzBmZThjNC8iLCJvaWQiOiI0MmRkNzY4Ny0yOGE4LTQ0MDktYmE1Yi05ZGNiNjJhZTk0YjkiLCJyaCI6IjAuQVhJQVhWNnBCU1VCMFVPV05hOGdQQV9veE1lX3ZYSDBXajFOcGZTU0RtX1VrYXR5QUFBLiIsInN1YiI6IjQyZGQ3Njg3LTI4YTgtNDQwOS1iYTViLTlkY2I2MmFlOTRiOSIsInRpZCI6IjA1YTk1ZTVkLTAxMjUtNDNkMS05NjM1LWFmMjAzYzBmZThjNCIsInV0aSI6InE4Tm1kLWpwRFUyUVRUZ29wM3RpQUEiLCJ2ZXIiOiIxLjAifQ.GWJrOPznWPzvh-uqYTlOA469gnCE1hTRb-o5DmVeuJ3nWlqkbJTrUipU2NfUza-xjyVn_O7Uhxyz1JOvkU39Sme9VnPnkHttatDDuXgUMJbPZqPpmvQ5vsPm_fOuVB7l63T8siKx6ZX_Bg8yhzgCKD2Rtmt-fQLYRHxg9Dxbdle3TPxfM0tPl8d_DfUQtOU8DswZN2oBHkxRdGZpK3N1bFTZuKuHCvYd53_hQuM-a9U68fsgRzXxxOLp_dKjKi2kp14N_Ul-VQLV-RrP_ToQVCQuU0C9NSo5i6jeWZ_TdCHiP3fcyYqxC_3MnS-dc5AOtUs-nM-WO96O5q-pNLUE0Q"}</span>
                 <span class="reporter-method-output">statusCode is : 200</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -398,26 +398,26 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetCustomerComponent</span>
-                <span class="method-start">2931 ms</span>
+                <span class="method-start">2662 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetProductOptionAMC</span>
-                <span class="method-start">6003 ms</span>
+                <span class="method-start">4109 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetCustomerDetails</span>
-                <span class="method-start">7406 ms</span>
+                <span class="method-start">5472 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.rest.tests.StagerToken</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">GetStagerToken</span>
-                <span class="method-start">8367 ms</span>
+                <span class="method-start">6482 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetCustomerType</span>
-                <span class="method-start">9195 ms</span>
+                <span class="method-start">7542 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

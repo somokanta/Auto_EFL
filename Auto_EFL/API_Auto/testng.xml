@@ -6,6 +6,7 @@
  <class name="com.qa.rest.tests.NewToken"/>
  </classes>
  </test>
+ 
 <test name="Stager_Token" enabled="true">
  <classes>
  <class name="com.qa.rest.tests.StagerToken"/>
